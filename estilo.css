@@ -34,6 +34,9 @@ justify-content: space-between;
 }
 
 /*Educando*/
+.icono-educacion{
+  color: white;
+}
 .educando {
   height: 400px;
   padding: 100px;
@@ -55,7 +58,10 @@ justify-content: space-between;
   .dato  {
       font-size: 20px;
       font-family: Roboto, sans-serif;
-
+      text-align: left;
+      width: 350px;
+      margin-top: 50px;
+      margin-left: 150px;
      }
    
    
@@ -70,6 +76,11 @@ justify-content: space-between;
     padding: 30px;
     margin: 50px 50px 50px 50px;
     margin-left: 150px;
+  }
+
+  .icon-trabajo{
+    
+    color: black;
   }
    /*habilidades*/
   
