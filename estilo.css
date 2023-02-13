@@ -1,0 +1,190 @@
+
+
+
+/*general*/ 
+body{
+  background-color: #f3f7f3;
+}
+.seccion-oscura {
+  color: white;
+  background-color: #1b1b32;
+}
+h2{
+  font-size: 2rem;
+  color:615151;
+  font-family: roboto; 
+
+}
+
+.seccion-clara{
+  color: black;
+  background-color: white;
+ 
+}
+/*Barra de navegacion*/
+.navbar{
+    padding: 2rem;
+    background-color: #727475;
+    font-size: 1.1rem;
+    color:aqua;
+}
+.navbar-collapse{
+align-items: center;
+justify-content: space-between;
+}
+
+/*Educando*/
+.educando {
+  height: 400px;
+  padding: 100px;
+}
+.educando .contenedor{
+  margin-left: 50px;
+  max-width: 400px;
+  text-align: left;
+}
+/*seccion hero*/
+
+ .hero-imagen-mia {
+    width: 300px;
+    height: 300px;
+    border-radius: 50% ;
+  }
+ 
+
+  .dato  {
+      font-size: 20px;
+      font-family: Roboto, sans-serif;
+
+     }
+   
+   
+  .titulo{
+    font-size: 3rem;
+  }
+  .profesion{
+    font-size: 2 rem;
+  }
+
+  .trabajo {
+    padding: 30px;
+    margin: 50px 50px 50px 50px;
+    margin-left: 150px;
+  }
+   /*habilidades*/
+  
+  
+  .Habilidades{
+    padding: 20px 40px 80px 40px;
+ }
+  .seccion-descripcion{
+    padding: 20px;
+  }
+ .Habilidades .carousel{
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+ }
+ .carousel-item{
+    max-height: 500px;
+ }
+ .carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    background-image:linear-gradient(#123BF2,#EAECF5) ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1%;
+    
+ }
+  
+ .Habilidades-imagen{
+   
+    height: 300px;
+    width: 300px; 
+   margin: 10px 10px 20px 10px 
+ }
+  .Habilidades-texto {
+    max-width: 60%;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'share tech Mono',monospace;
+  }
+  /*programas*/
+  .programas {
+     padding-top: 50px;
+  }
+  .programa-centro{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px ;  
+    
+    }
+    .imagen-fondo{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      padding-top: 50px;
+      
+      
+    }
+    .dispositivo{
+      width: 700px;
+      height: 400px;
+    }
+    .sobretexto{
+      position:absolute;
+      text-align: center;
+     
+      width: 600px;
+      height: 300px;
+    }
+    
+   .iconos{
+    display: flex;
+    position: left right;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+   }
+   .item {
+    justify-content: center;
+    align-items: center;
+   }
+    .Sobretexto{
+      opacity: 0;
+      position: absolute;
+      background-color: grey;
+     
+    }
+     .imagen-fondo .sobretexto p {
+        font-size: 20px;
+        font-weight:200px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+    
+     
+     .item1{
+      height: 70px;
+      width: 70px;
+      padding: 0;
+     }
+    
+   
+    /* Adaptable responsive*/
+    @media screen and (max-width : 767px) {
+    .navbar-brand {
+        display: none;
+    }
+   }
+    @media screen and (min-width : 700px){
+    .hero-inferior-imagen {
+        max-width : 600px;
+    }
+}
+
+
+
