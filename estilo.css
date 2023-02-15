@@ -2,8 +2,9 @@
 
 
 /*general*/ 
-body{
-  background-color: #f3f7f3;
+/* Codificacion comun a todos las secciones*/
+body {
+  background-color: #cdd1cd;
 }
 .seccion-oscura {
   color: white;
@@ -21,6 +22,7 @@ h2{
   background-color: white;
  
 }
+/**************************/
 /*Barra de navegacion*/
 .navbar{
     padding: 2rem;
@@ -32,46 +34,51 @@ h2{
 align-items: center;
 justify-content: space-between;
 }
+/*******************************/
+/*seccion Sobre Mi*/
 
+.imagen-mia {
+  width: 300px;
+  height: 300px;
+  border-radius: 50% ;
+  margin: 15px;
+}
+
+.dato  {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    
+    margin-top: 50px;
+    margin-left: 50px;
+   }
+ .dni{
+   width: 20px;
+ }
+ 
+.titulo{
+  font-size: 3rem;
+}
+.profesion{
+  font-size: 2 rem;
+}
+/*******************************/
 /*Educando*/
-.icono-educacion{
-  color: white;
-}
-.educando {
-  height: 400px;
-  padding: 100px;
-}
-.educando .contenedor{
-  margin-left: 50px;
-  max-width: 400px;
-  text-align: left;
-}
-/*seccion hero*/
 
- .hero-imagen-mia {
-    width: 300px;
-    height: 300px;
-    border-radius: 50% ;
-  }
+.educando{
+  display: flex;
+  justify-content:left;
+  align-items: center;
  
 
-  .dato  {
-      font-size: 20px;
-      font-family: Roboto, sans-serif;
-      text-align: left;
-      width: 350px;
-      margin-top: 50px;
-      margin-left: 150px;
-     }
-   
-   
-  .titulo{
-    font-size: 3rem;
-  }
-  .profesion{
-    font-size: 2 rem;
-  }
-
+}
+.container-edu{
+  margin-left:170px;
+  margin-top: 50px;
+}
+ 
+/************************************/
+/*Trabajos actual*/
   .trabajo {
     padding: 30px;
     margin: 50px 50px 50px 50px;
@@ -82,6 +89,7 @@ justify-content: space-between;
     
     color: black;
   }
+  /**************************************************/
    /*habilidades*/
   
   
@@ -90,16 +98,17 @@ justify-content: space-between;
  }
   .seccion-descripcion{
     padding: 20px;
+    margin-left:160px
   }
  .Habilidades .carousel{
-    width: 500px;
+    width: 300px;
     align-items: center;
     justify-content: center;
  }
  .carousel-item{
     max-height: 500px;
  }
- .carousel-item .container{
+ .carousel-item .container1{
     width: 100%;
     height: 100%;
     display:flex;
@@ -108,8 +117,7 @@ justify-content: space-between;
     align-items: center;
     justify-content: center;
     border-radius: 1%;
-    
- }
+  }
   
  .Habilidades-imagen{
    
@@ -123,6 +131,14 @@ justify-content: space-between;
     text-align: left;
     font-family: 'share tech Mono',monospace;
   }
+
+  span-carrusel-control-prev-icon{
+    padding: 80px;
+  }
+  .prog {
+    margin-left: 160px;
+  }
+  /*******************************************************************/
   /*programas*/
   .programas {
      padding-top: 50px;
@@ -138,8 +154,7 @@ justify-content: space-between;
       justify-content: center;
       position: relative;
       padding-top: 50px;
-      
-      
+     
     }
     .dispositivo{
       width: 700px;
@@ -177,14 +192,13 @@ justify-content: space-between;
 
     }
     
-     
      .item1{
       height: 70px;
       width: 70px;
       padding: 0;
      }
     
-   
+   /*******************************************************************/
     /* Adaptable responsive*/
     @media screen and (max-width : 767px) {
     .navbar-brand {
