@@ -15,6 +15,7 @@ En esta sección se usó una acordeón de boostrap.
 El carrusel esta basado en CSS y boostrap
 5 Sección: Programación. Este es una combinaciones de iconos conformados por imágenes que al pasar por ellos se despliega un texto sobrescribiendo la imagen principal describiendo el uso y todos los lenguajes que fui usando a lo largo de mi vida profesional.
 Para lograr los efectos deseados se utilizo CSS, JavaScript.
+6 Sección :Footer acá figuran mis redes sociales divididas en tres columnas sobre un fondo oscuro, que al pasar con el mouse sobre ellas hace una transición cambiando el color y ampliando el tamaño de la letra
 
 En todos los casos no se intento relatar todos los trabajos de electrónica, ni de electricidad,  ni de ingenieria a lo largo de 30 años de profesión, si no se trato de usar como ejemplo las distintas herramientas aprendidas en el curso.
 Todas las secciones se delimitaron con comentarios para ordenar el programa.
