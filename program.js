@@ -31,4 +31,4 @@ function mOver(A) {
     document.getElementById("dispositivo").style.opacity = 1;
     document.getElementById("ref-text").innerHTML = " ";
   }
-  /**/
+ 
